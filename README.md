@@ -1,15 +1,15 @@
-# Tables
+# react-tables-employes
 
 Une librairie pour afficher des données dans un tableau avec une barre de recherche et une pagination.
 
 ## Installation
 
-_npm install tables_
+_npm install react-tables-employes_
 
 ## Utilisation
 
 ```javascript
-import Tables from "tables";
+import Tables from "react-tables-employes";
 
 const columns = [
   {
