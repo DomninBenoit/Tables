@@ -1,10 +1,9 @@
 {
   "name": "react-tables-employes",
-  "version": "0.1.0",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "version": "0.1.2",
+  "main": "index.js",
+  "module": "index.js",
   "files": [
-    "dist",
     "README.md",
     "lib"
   ],
