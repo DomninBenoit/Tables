@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Table, Input } from "antd";
 import PropTypes from "prop-types";
-import "./style.scss";
+import "./style.css";
 
 const Tables = ({ datas, columns }) => {
   const [dataSource, setDataSource] = useState([]);
@@ -39,6 +39,7 @@ const Tables = ({ datas, columns }) => {
       />
       {/* Table component with pagination options and dataSource as filteredDataSource */}
       <Table
+        rowKey={(record) => record.id}
         columns={columns}
         dataSource={filteredDataSource}
         pagination={{
@@ -47,7 +48,7 @@ const Tables = ({ datas, columns }) => {
           defaultCurrent: 1,
           total: filteredDataSource.length,
         }}
-      ></Table>
+      />
     </div>
   );
 };

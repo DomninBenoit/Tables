@@ -1,17 +1,18 @@
 {
   "name": "react-tables-employes",
-  "version": "0.1.2",
-  "main": "index.js",
-  "module": "index.js",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "files": [
-    "README.md",
-    "lib"
+    "dist",
+    "README.md"
   ],
   "repository": {
     "type": "git",
-    "url": "URL_OF_YOUR_REPOSITORY"
+    "url": "https://github.com/DomninBenoit/Tables.git"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -45,6 +46,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
     "babel-cli": "^6.26.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
